@@ -2,13 +2,15 @@
  * QUESTION
 
 1. You are given a number n.
-2. You've to create a pattern of * and separated by tab as shown in output format.
+2. You've to write code to print the pattern given in output format below.
+      *
+      *  *
+*  *  *  *  *
+      *  *
+      *
 
-            *
-         *  *
-      *  *  *
-   *  *  *  *
-*  *  *  *  *  
+
+
 
  */
 
@@ -16,7 +18,7 @@
  /**
  * ANSWER
  */
-import java.util.*;
+ import java.util.*;
 
 public class Main {
 
@@ -24,20 +26,27 @@ public class Main {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
 
-        int nspaces = n - 1;
+        int nspaces = n / 2;
         int nstars = 1;
-
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= nspaces; j++) {
-                System.out.print("\t");
+                if (i != n / 2 + 1) {
+                    System.out.print("\t");
+                } else {
+                    System.out.print("*\t");
+                }
             }
 
             for (int j = 1; j <= nstars; j++) {
                 System.out.print("*\t");
             }
 
-            nspaces--;
-            nstars++;
+            if (i <= n / 2) {
+                nstars++;
+            } else {
+                nstars--;
+            }
+
             System.out.println();
         }
 

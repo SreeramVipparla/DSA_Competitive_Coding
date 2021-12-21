@@ -11,7 +11,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Display_Array_In_Reverse {
 
   public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

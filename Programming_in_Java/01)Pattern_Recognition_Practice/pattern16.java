@@ -18,7 +18,7 @@
  */
  import java.util.*;
 
-public class Main{
+public class pattern16{
 
 public static void main(String[] args) {
     Scanner scn = new Scanner(System.in);

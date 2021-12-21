@@ -10,7 +10,7 @@ Use sample input and output to take idea about output.
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Get_Stair_Paths{
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

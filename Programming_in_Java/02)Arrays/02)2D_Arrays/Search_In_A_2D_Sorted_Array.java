@@ -15,7 +15,7 @@ Note - Each row and column is sorted in increasing order.
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Search_In_A_2D_Sorted_Array {
 
    public static void main(String[] args) throws Exception {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

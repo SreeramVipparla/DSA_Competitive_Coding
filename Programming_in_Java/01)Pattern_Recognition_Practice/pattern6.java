@@ -20,7 +20,7 @@
  */
  import java.util.*;
 
-public class Main {
+public class pattern6{
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);

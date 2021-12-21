@@ -8,7 +8,7 @@ Use sample input and output to take idea about subsequences.
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class Get_Subsequence{
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

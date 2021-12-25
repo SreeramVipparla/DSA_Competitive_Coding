@@ -31,7 +31,7 @@ You are required to print the values told by the money exchange to the foreigner
 import java.io.*;
 import java.util.*;
 
-public class Main{
+public class Broken_Economy{
 
 public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -66,7 +66,7 @@ public static void main(String[] args) throws Exception {
  }
 
 }
-}
+
  /**
  * SOURCE-PEPCODING
  */

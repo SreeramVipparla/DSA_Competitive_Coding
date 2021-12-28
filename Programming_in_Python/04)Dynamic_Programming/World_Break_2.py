@@ -64,5 +64,5 @@ class Solution(object):
                     break
         return dp[-1]
 """
-SOURCE-LEETCODE+
+SOURCE-LEETCODE
 """

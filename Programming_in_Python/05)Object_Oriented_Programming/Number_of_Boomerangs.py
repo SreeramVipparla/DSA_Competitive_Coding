@@ -7,16 +7,15 @@ Return the number of boomerangs.
  
 
 Example 1:
-
 Input: points = [[0,0],[1,0],[2,0]]
 Output: 2
 Explanation: The two boomerangs are [[1,0],[0,0],[2,0]] and [[1,0],[2,0],[0,0]].
-Example 2:
 
+Example 2:
 Input: points = [[1,1],[2,2],[3,3]]
 Output: 2
-Example 3:
 
+Example 3:
 Input: points = [[1,1]]
 Output: 0
  
@@ -28,8 +27,7 @@ n == points.length
 points[i].length == 2
 -104 <= xi, yi <= 104
 All the points are unique.
-Accepted
-79,163
+
 
 """
 """

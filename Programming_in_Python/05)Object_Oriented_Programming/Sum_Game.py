@@ -65,6 +65,8 @@ class Solution:
         s_diff = s1 - s2         # calculate sum difference and question mark difference
         q_diff = q_cnt_2 - q_cnt_1
         return not (q_diff % 2 == 0 and q_diff // 2 * 9 == s_diff) # When Bob can't win, Alice wins
+
+
 """
 SOURCE-LEETCODE
 """

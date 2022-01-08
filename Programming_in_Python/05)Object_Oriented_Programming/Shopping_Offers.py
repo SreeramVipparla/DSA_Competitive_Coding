@@ -60,6 +60,8 @@ class Solution:
                 if ok: cur = min(cur, dfs(tuple(new_needs)) + s[-1])
             return min(ans, cur)
         return dfs(tuple(needs))
+
+        
 """
 SOURCE-LEETCODE
 """

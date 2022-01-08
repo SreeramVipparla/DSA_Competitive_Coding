@@ -8,8 +8,6 @@ Alice and Bob take turns, with Alice starting first. Each turn, a player takes t
 
 Assuming Alice and Bob play optimally, return true if Alice wins the game, or false if Bob wins.
 
- 
-
 Example 1:
 
 Input: piles = [5,3,4,5]

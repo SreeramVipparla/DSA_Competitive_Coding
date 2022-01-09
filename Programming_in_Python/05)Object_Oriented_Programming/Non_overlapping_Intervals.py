@@ -42,6 +42,8 @@ class Solution:
             else:
                 end = intervals[i][1]
         return res
+
+        
 """
 SOURCE-LEETCODE
 """

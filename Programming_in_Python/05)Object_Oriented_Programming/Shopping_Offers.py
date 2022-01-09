@@ -39,6 +39,7 @@ n == needs.length
 special[i].length == n + 1
 0 <= special[i][j] <= 50
 """
+
 """
 ANSWER-
 """
@@ -49,7 +50,7 @@ class Solution:
         def dfs(needs):
             ans = sum([i*j for i, j in zip(price, needs)]) 
             cur = sys.maxsize
-            for s in special:
+            for s in special:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
                 new_needs, ok = [], True
                 for i in range(n):
                     need, give = needs[i], s[i]

@@ -33,7 +33,6 @@ ANSWER-
 """
 from collections import deque
 class Solution(object):
-        
     def new21Game(self, N, K, W):
         lastVal = (N-(K-1))/float(W) if K > 0 else 1
         de = deque([lastVal] + [1 for _ in range(N-(K-1))] + [0 for _ in range(W-(N-(K-1)))])

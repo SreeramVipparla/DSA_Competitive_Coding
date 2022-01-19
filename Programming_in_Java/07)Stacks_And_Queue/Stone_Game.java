@@ -47,7 +47,6 @@ class Solution:
         
         return fn(0, len(piles)-1) > 0
 
-        
 """
 SOURCE-PEPCODING
 """

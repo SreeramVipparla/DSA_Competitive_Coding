@@ -52,7 +52,6 @@ def Wildcard_Matching(self, s, p):
             si, pi = save_si, save_pi
         else:
             return False
-    # Check trailing "*"
     return p[pi:].count("*") == pn - pi
 """
 SOURCE-LEETCODE

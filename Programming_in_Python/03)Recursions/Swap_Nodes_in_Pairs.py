@@ -41,8 +41,7 @@ class Solution:
         head = head.next
         p = tmp.next
     return dummy.next
- 
-# Recursively    
+   
 def swapPairs(self, head):
     if head and head.next:
         tmp = head.next

@@ -51,6 +51,7 @@ class Solution:
                 if node.right: tmp.append([node.right, pos*2 + 1])
             queue = tmp
         return result
+        
 """
 SOURCE-LEETCODE
 """

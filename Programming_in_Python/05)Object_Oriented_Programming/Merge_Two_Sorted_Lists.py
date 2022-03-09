@@ -46,6 +46,8 @@ class Solution:
             tail=tail.next
         tail.next = list1 or list2
         return dummy.next
+
+        
 """
 SOURCE-LEETCODE
 """ 

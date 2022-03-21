@@ -78,5 +78,5 @@ private int getNeighbors(int[][] board, int i, int j, int m, int n) {
 
 }
  /**
- * SOURCE-PEPCODING
+ * SOURCE-pepcoding
  */
